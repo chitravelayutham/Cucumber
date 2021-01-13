@@ -1,0 +1,228 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5360170636,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I access webdriverunivsity.com",
+            "match": {
+              "location": "LoginSteps.i_access_webdriverunivsity_com()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 578385940,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on the login portal button",
+            "match": {
+              "location": "LoginSteps.i_click_on_the_login_portal_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1338530525,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter a username",
+            "match": {
+              "location": "LoginSteps.i_enter_a_username()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4245941384,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.setup()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Login account with a valid password",
+        "description": "",
+        "id": "login-to-account-at-webdriverunivsity.com-using-login-portal;login-account-with-a-valid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 213584338,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter a \"webdriver123\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "webdriver123",
+                  "offset": 11
+                }
+              ],
+              "location": "LoginSteps.i_enter_a_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 129462683,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on the login button",
+            "match": {
+              "location": "LoginSteps.i_click_on_the_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17137024,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should be presented with a succesfful validation alert",
+            "match": {
+              "location": "LoginSteps.i_should_be_presented_with_a_succesfful_validation_alert()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6060360814,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I access webdriverunivsity.com",
+            "match": {
+              "location": "LoginSteps.i_access_webdriverunivsity_com()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 256902343,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on the login portal button",
+            "match": {
+              "location": "LoginSteps.i_click_on_the_login_portal_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1471105476,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter a username",
+            "match": {
+              "location": "LoginSteps.i_enter_a_username()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3187640050,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.setup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Login account with a invalid password",
+        "description": "",
+        "id": "login-to-account-at-webdriverunivsity.com-using-login-portal;login-account-with-a-invalid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 122760505,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter a \"invalid\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "invalid",
+                  "offset": 11
+                }
+              ],
+              "location": "LoginSteps.i_enter_a_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 145761262,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on the login button",
+            "match": {
+              "location": "LoginSteps.i_click_on_the_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11752890,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should be presented with a unsuccesfful validation alert",
+            "match": {
+              "location": "LoginSteps.i_should_be_presented_with_a_unsuccesfful_validation_alert()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login to account at webdriverunivsity.com using login portal",
+    "description": "",
+    "id": "login-to-account-at-webdriverunivsity.com-using-login-portal",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
